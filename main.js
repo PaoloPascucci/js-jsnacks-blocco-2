@@ -59,3 +59,20 @@ const Footballteam = [
         goal: 0
     },
 ]
+console.log(Footballteam);
+
+
+function getRandom() {
+    return Math.floor(Math.random() * 100);
+}
+
+for (let i = 0; i < Footballteam.length; i++) {
+    const squad = Footballteam[i];
+    squad.falli = getRandom();
+    squad.goal = getRandom();
+
+    Footballteam.falli = squad.falli
+
+    Footballteam.goal = squad.goal
+}
+document.querySelector('.text').innerHTML = Footballteam
