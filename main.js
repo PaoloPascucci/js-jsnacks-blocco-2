@@ -1,4 +1,4 @@
-const bici = [
+/*const bici = [
     {
 
     biciname: 'Bianchi',
@@ -29,3 +29,33 @@ for (let i = 0; i < bici.length; i++) {
 
 
 //document.getElementById('text').innerHTML = "la bici che pesa meno è " + biciname
+*/
+
+const Footballteam = [
+
+    {
+        name: "Chelsea",
+        falli: 0,
+        goal: 0
+    },
+    {
+        name: 'Manchester',
+        falli: 0,
+        goal: 0
+    },
+    {
+        name: 'BorussiaDortmund',
+        falli: 0,
+        goal: 0
+    },
+    {
+        name: 'PSG',
+        falli: 0,
+        goal: 0
+    },
+    {
+        name: 'Roma',
+        falli: 0,
+        goal: 0
+    },
+]
