@@ -34,7 +34,7 @@ for (let i = 0; i < bici.length; i++) {
 const Footballteam = [
 
     {
-        name: "Chelsea",
+        name: 'Chelsea',
         falli: 0,
         goal: 0
     },
@@ -72,7 +72,5 @@ for (let i = 0; i < Footballteam.length; i++) {
     squad.goal = getRandom();
 
     Footballteam.falli = squad.falli
-
     Footballteam.goal = squad.goal
 }
-document.querySelector('.text').innerHTML = Footballteam
